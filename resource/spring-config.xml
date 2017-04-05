@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:context="http://www.springframework.org/schema/context"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans 
+     http://www.springframework.org/schema/beans/spring-beans.xsd
+     http://www.springframework.org/schema/context 
+     http://www.springframework.org/schema/context/spring-context.xsd">
+  <context:component-scan 
+      base-package="com.lzp.mySpringMin">
+  </context:component-scan>
+<!-- <context:annotation-config></context:annotation-config> -->
+
+	<!-- <bean id="myBean" class="com.lzp.mySpringMin.MyBean" autowire="byName"> 
+		</bean> -->
+	<!-- <bean id="myBeanByName" class="com.lzp.mySpringMin.MyBeanByName"></bean> -->
+	<!-- <bean id="myBean2" class="com.lzp.mySpringMin.MyBean" autowire="constructor"> -->
+	<!-- <bean id="myBean2" class="com.lzp.mySpringMin.MyBean" > -->
+		<!-- <property name="myBeanByName" ref="myBeanByName"></property> -->
+	<!-- </bean>
+	<bean id="myBeanByContructor" class="com.lzp.mySpringMin.MyBeanByContructor"></bean>
+	<bean id="aa" class="com.lzp.mySpringMin.MyImplatement"></bean>
+	<bean id="bb" class="com.lzp.mySpringMin.MyImplatement2"></bean> -->
+</beans>
